@@ -35,7 +35,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="navbar  shadow-sm px-8 bg-primary text-[#ffffff] sticky top-0 z-50">
+    <div className="navbar  shadow-sm lg:px-16 bg-primary text-[#ffffff] sticky top-0 z-50">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -57,7 +57,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex="-1"
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-primary rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             {link.map((links) => (
               <li key={links.id}>
